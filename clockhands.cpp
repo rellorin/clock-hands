@@ -17,6 +17,7 @@ int main()
     cout<<"Enter the minutes.";
     cin>>M;
     
+    //Jason Arnaldo made this edit right here.
     degrees = 360 - (((30*H)+(M/2))-6*M);
     cout<<degrees;
     cout<<endl;
